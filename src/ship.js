@@ -156,7 +156,7 @@ var Capacitor = (function() {
     }
 
     /*
-     * Does the capacitor have enough power for somethig?
+     * Does the capacitor have enough power for something?
      */
     obj.prototype.hasEnoughPower = function(powerNedded) {
         return this.energy > powerNedded;

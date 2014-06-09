@@ -6,7 +6,7 @@ Done:
  - Power Reactor
  - Power Capacitors
  - Weapon System
- - Power Splitter (Splits the energy produced by the reactor eficiently to all uncharged components)
+ - Power Splitter (Splits the energy produced by the reactor efficiently to all uncharged components)
  
 ToDo:
  - Shield and damage system
