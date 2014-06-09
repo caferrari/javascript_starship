@@ -12,6 +12,7 @@ var ships = [];
     ship.setReactor(new Reactor(10));
 
     ship.addComponent(new Weapon("Cannon", 2, 20, 100));
+    ship.addComponent(new Weapon("Cannon", 2, 20, 100));
     ship.addComponent(new Weapon("IonCannon", 12, 20, 2500));
     ship.addComponent(new Weapon("LaserCannon", 40, 70, 2000));
 
