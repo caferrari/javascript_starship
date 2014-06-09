@@ -95,7 +95,7 @@ $(document).ready(function() {
 
         var tpl = getTemplate('templateShip');
 
-        tpl.find('.propShipName').html(ship.name);
+        tpl.find('.propShipName').html('Ship name: ' + ship.name);
 
         ship.getComponents().forEach(function(component) {
             setupComponent(component, tpl);
@@ -105,7 +105,7 @@ $(document).ready(function() {
 
         tpl.find('.propShip').append(toolbar);
 
-        var btnFire = getTemplate('templateButton').html('Fire');
+        var btnFire = getTemplate('templateButton').html('Trigger (keep pressed)');
 
         toolbar.append(btnFire);
 
