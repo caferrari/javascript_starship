@@ -13,7 +13,7 @@ var ships = [];
 
     ship.addComponent(new Weapon("Cannon", 2, 20, 100));
     ship.addComponent(new Weapon("Cannon", 2, 20, 100));
-    ship.addComponent(new Weapon("IonCannon", 12, 20, 2500));
+    ship.addComponent(new Weapon("IonCannon", 12, 30, 2500));
     ship.addComponent(new Weapon("LaserCannon", 40, 70, 2000));
 
     ships.push(ship);
